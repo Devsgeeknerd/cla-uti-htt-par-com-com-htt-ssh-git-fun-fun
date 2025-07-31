@@ -3,6 +3,14 @@
 
 ***Conteúdo da Aula:***
 
+O protocolo HTTPS é o mais fácil e prático para ser utilizado no Github.
+
+Para isso, não há a necessidade de nenhuma configuração adicional.
+
+Apenas com o link do repositório é possível realizar esta comunicação, desde que você possua permissão de acesso ao repositório.
+
+Sendo assim, no próximo vídeo veremos como esta comunicação funciona utilizando o HTTPS.
+
 ## :memo: Explicação do Processo
 
 Imagine que você quer enviar uma carta secreta para seu amigo que mora muito longe. Você precisa garantir que só ele vai conseguir ler o que está dentro da carta, certo? É exatamente assim que funciona o HTTPS quando estamos trabalhando com o GitHub!
@@ -15,17 +23,15 @@ Imagine que você quer enviar uma carta secreta para seu amigo que mora muito lo
 
 ### Como Funciona (Passo a Passo):
 
-**Quando você quer acessar um projeto no GitHub**:
+- **Quando você quer acessar um projeto no GitHub**:
+  - É como tentar entrar em uma casa segura.
+  - O GitHub verifica quem você é.
+  - Se tudo estiver ok, você consegue entrar.
 
-- É como tentar entrar em uma casa segura.
-- O GitHub verifica quem você é.
-- Se tudo estiver ok, você consegue entrar.
-
-**Durante a comunicação**:
-
-- Todas as mensagens são criptografadas (como um código secreto).
-- Ninguém consegue ler o que está sendo enviado.
-- Só quem tem a chave certa pode descriptografar.
+- **Durante a comunicação**:
+  - Todas as mensagens são criptografadas (como um código secreto).
+  - Ninguém consegue ler o que está sendo enviado.
+  - Só quem tem a chave certa pode descriptografar.
 
 ```mermaid
 sequenceDiagram
@@ -61,36 +67,32 @@ sequenceDiagram
 O HTTPS é como ter um guarda-costas especial para seus projetos no GitHub. Aqui estão algumas vantagens importantes:
 
 - **Proteção Total**:
-
-- Seus arquivos ficam seguros durante todo o caminho até o GitHub.
-- Ninguém pode interceptar ou modificar seus projetos.
-- É como enviar uma carta em um envelope mágico que só pode ser aberto pelo destinatário.
+  - Seus arquivos ficam seguros durante todo o caminho até o GitHub.
+  - Ninguém pode interceptar ou modificar seus projetos.
+  - É como enviar uma carta em um envelope mágico que só pode ser aberto pelo destinatário.
 
 - **Facilidade de Uso**:
-
-- Não precisa configurar nada complicado.
-- Funciona em qualquer computador ou rede.
-- É como usar uma porta com chave incorporada - basta girar e pronto!
+  - Não precisa configurar nada complicado.
+  - Funciona em qualquer computador ou rede.
+  - É como usar uma porta com chave incorporada - basta girar e pronto!
 
 ### Benefícios Práticos:
 
 - **Trabalho em Equipe**:
-
-- Múltiplos desenvolvedores podem trabalhar juntos com segurança.
-- Como compartilhar um cofre secreto só com pessoas autorizadas.
-- Cada pessoa pode fazer suas próprias modificações sem riscos.
+  - Múltiplos desenvolvedores podem trabalhar juntos com segurança.
+  - Como compartilhar um cofre secreto só com pessoas autorizadas.
+  - Cada pessoa pode fazer suas próprias modificações sem riscos.
 
 - **Projetos Pessoais**:
-
-- Seus projetos ficam protegidos mesmo quando você está em redes públicas.
-- Como ter um guarda-costas digital seguindo seu trabalho.
-- Seus arquivos permanecem privados durante todo o processo.
+  - Seus projetos ficam protegidos mesmo quando você está em redes públicas.
+  - Como ter um guarda-costas digital seguindo seu trabalho.
+  - Seus arquivos permanecem privados durante todo o processo.
 
 ### Cuidado!
 
 Algumas coisas importantes para lembrar:
 
-- Sempre use HTTPS ao trabalhar com o GitHub
+- Sempre use HTTPS ao trabalhar com o GitHub.
 - Não compartilhe suas credenciais de acesso com ninguém.
 - Mantenha suas senhas seguras e difíceis de adivinhar.
 - Se possível, use autenticação de dois fatores (como um código enviado para seu celular).
